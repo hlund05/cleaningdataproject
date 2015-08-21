@@ -37,10 +37,10 @@ full_train <- cbind(subject_train, y_train, x_train)
 full_set <- rbind(full_train, full_test)
 full_set <- merge(full_set, activity_labels, by="activityid")
 
-meta_set <- subset(full_set, TRUE, select=c(subjectid, activityname))
-meanstd_set <- subset(full_set, TRUE, grepl("mean()", colnames(full_set)) | grepl("std()", colnames(full_set)))
+#meta_set <- subset(full_set, TRUE, select=c(subjectid, activityname))
+tidy_set <- subset(full_set, TRUE, grepl("mean\\(\\)", colnames(full_set)) | grepl("std\\(\\)", colnames(full_set)) | grepl("subjectid", colnames(full_set)) | grepl("activityname", colnames(full_set)))
 
-tidy_set <- cbind(meta_set, meanstd_set)
+#tidy_set <- cbind(meta_set, meanstd_set)
 names(tidy_set) <- tolower(names(tidy_set))
 names(tidy_set) <- gsub("-", "", names(tidy_set))
 

@@ -1,0 +1,70 @@
+List of Variables in the Tidy Data Set (tidygalaxydata.txt)
+
+subjectid:	Unique ID number of the subject
+activityname:	Name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+tbodyaccmean()x:	 Time Domain Body Accelerometer Signal Mean, x direction
+tbodyaccmean()y:	 Time Domain Body Accelerometer Signal Mean, y direction
+tbodyaccmean()z:	 Time Domain Body Accelerometer Signal Mean, z direction
+tbodyaccstd()x:	 Time Domain Body Accelerometer Signal Standard Deviation, x direction
+tbodyaccstd()y:	 Time Domain Body Accelerometer Signal Standard Deviation, y direction
+tbodyaccstd()z:	 Time Domain Body Accelerometer Signal Standard Deviation, z direction
+tgravityaccmean()x:	 Time Domain Gravity Accelerometer Signal Mean, x direction
+tgravityaccmean()y:	 Time Domain Gravity Accelerometer Signal Mean, y direction
+tgravityaccmean()z:	 Time Domain Gravity Accelerometer Signal Mean, z direction
+tgravityaccstd()x:	 Time Domain Gravity Accelerometer Signal Standard Deviation, x direction
+tgravityaccstd()y:	 Time Domain Gravity Accelerometer Signal Standard Deviation, y direction
+tgravityaccstd()z:	 Time Domain Gravity Accelerometer Signal Standard Deviation, z direction
+tbodyaccjerkmean()x:	 Time Domain Body Accelerometer Jerk Signal Mean, x direction
+tbodyaccjerkmean()y:	 Time Domain Body Accelerometer Jerk Signal Mean, y direction
+tbodyaccjerkmean()z:	 Time Domain Body Accelerometer Jerk Signal Mean, z direction
+tbodyaccjerkstd()x:	 Time Domain Body Accelerometer Jerk Signal Standard Deviation, x direction
+tbodyaccjerkstd()y:	 Time Domain Body Accelerometer Jerk Signal Standard Deviation, y direction
+tbodyaccjerkstd()z:	 Time Domain Body Accelerometer Jerk Signal Standard Deviation, z direction
+tbodygyromean()x:	 Time Domain Body Gyroscope Signal Mean, x direction
+tbodygyromean()y:	 Time Domain Body Gyroscope Signal Mean, y direction
+tbodygyromean()z:	 Time Domain Body Gyroscope Signal Mean, z direction
+tbodygyrostd()x:	 Time Domain Body Gyroscope Signal Standard Deviation, x direction
+tbodygyrostd()y:	 Time Domain Body Gyroscope Signal Standard Deviation, y direction
+tbodygyrostd()z:	 Time Domain Body Gyroscope Signal Standard Deviation, z direction
+tbodygyrojerkmean()x:	 Time Domain Body Gyroscope Jerk Signal Mean, x direction
+tbodygyrojerkmean()y:	 Time Domain Body Gyroscope Jerk Signal Mean, y direction
+tbodygyrojerkmean()z:	 Time Domain Body Gyroscope Jerk Signal Mean, z direction
+tbodygyrojerkstd()x:	 Time Domain Body Gyroscope Jerk Signal Standard Deviation, x direction
+tbodygyrojerkstd()y:	 Time Domain Body Gyroscope Jerk Signal Standard Deviation, y direction
+tbodygyrojerkstd()z:	 Time Domain Body Gyroscope Jerk Signal Standard Deviation, z direction
+tbodyaccmagmean():	 Time Domain Body Accelerometer Signal Magnitude Mean
+tbodyaccmagstd():	 Time Domain Body Accelerometer Signal Magnitude Standard Deviation
+tgravityaccmagmean():	 Time Domain Gravity Accelerometer Signal Magnitude Mean
+tgravityaccmagstd():	 Time Domain Gravity Accelerometer Signal Magnitude Standard Deviation
+tbodyaccjerkmagmean():	 Time Domain Body Accelerometer Jerk Signal Magnitude Mean
+tbodyaccjerkmagstd():	 Time Domain Body Accelerometer Jerk Signal Magnitude Standard Deviation
+tbodygyromagmean():	 Time Domain Body Gyroscope Signal Magnitude Mean
+tbodygyromagstd():	 Time Domain Body Gyroscope Signal Magnitude Standard Deviation
+tbodygyrojerkmagmean():	 Time Domain Body Gyroscope Jerk Signal Magnitude Mean
+tbodygyrojerkmagstd():	 Time Domain Body Gyroscope Jerk Signal Magnitude Standard Deviation
+fbodyaccmean()x:	 Frequency Domain Body Accelerometer Signal Mean, x direction
+fbodyaccmean()y:	 Frequency Domain Body Accelerometer Signal Mean, y direction
+fbodyaccmean()z:	 Frequency Domain Body Accelerometer Signal Mean, z direction
+fbodyaccstd()x:	 Frequency Domain Body Accelerometer Signal Standard Deviation, x direction
+fbodyaccstd()y:	 Frequency Domain Body Accelerometer Signal Standard Deviation, y direction
+fbodyaccstd()z:	 Frequency Domain Body Accelerometer Signal Standard Deviation, z direction
+fbodyaccjerkmean()x:	 Frequency Domain Body Accelerometer Jerk Signal Mean, x direction
+fbodyaccjerkmean()y:	 Frequency Domain Body Accelerometer Jerk Signal Mean, y direction
+fbodyaccjerkmean()z:	 Frequency Domain Body Accelerometer Jerk Signal Mean, z direction
+fbodyaccjerkstd()x:	 Frequency Domain Body Accelerometer Jerk Signal Standard Deviation, x direction
+fbodyaccjerkstd()y:	 Frequency Domain Body Accelerometer Jerk Signal Standard Deviation, y direction
+fbodyaccjerkstd()z:	 Frequency Domain Body Accelerometer Jerk Signal Standard Deviation, z direction
+fbodygyromean()x:	 Frequency Domain Body Gyroscope Signal Mean, x direction
+fbodygyromean()y:	 Frequency Domain Body Gyroscope Signal Mean, y direction
+fbodygyromean()z:	 Frequency Domain Body Gyroscope Signal Mean, z direction
+fbodygyrostd()x:	 Frequency Domain Body Gyroscope Signal Standard Deviation, x direction
+fbodygyrostd()y:	 Frequency Domain Body Gyroscope Signal Standard Deviation, y direction
+fbodygyrostd()z:	 Frequency Domain Body Gyroscope Signal Standard Deviation, z direction
+fbodyaccmagmean():	 Frequency Domain Body Accelerometer Signal Magnitude Mean
+fbodyaccmagstd():	 Frequency Domain Body Accelerometer Signal Magnitude Standard Deviation
+fbodybodyaccjerkmagmean():	 Frequency Domain Body Accelerometer Jerk Signal Magnitude Mean
+fbodybodyaccjerkmagstd():	 Frequency Domain Body Accelerometer Jerk Signal Magnitude Standard Deviation
+fbodybodygyromagmean():	 Frequency Domain Body Gyroscope Signal Magnitude Mean
+fbodybodygyromagstd():	 Frequency Domain Body Gyroscope Signal Magnitude Standard Deviation
+fbodybodygyrojerkmagmean():	 Frequency Domain Body Gyroscope Jerk Signal Magnitude Mean
+fbodybodygyrojerkmagstd():	 Frequency Domain Body Gyroscope Jerk Signal Magnitude Standard Deviation
