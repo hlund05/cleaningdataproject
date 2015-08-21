@@ -6,7 +6,7 @@
     Appropriately labels the data set with descriptive variable names. 
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 "
-
+detach("package:reshape", unload=TRUE)
 library(dplyr)
 
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
@@ -37,17 +37,15 @@ full_train <- cbind(subject_train, y_train, x_train)
 full_set <- rbind(full_train, full_test)
 full_set <- merge(full_set, activity_labels, by="activityid")
 
-#meta_set <- subset(full_set, TRUE, select=c(subjectid, activityname))
 tidy_set <- subset(full_set, TRUE, grepl("mean\\(\\)", colnames(full_set)) | grepl("std\\(\\)", colnames(full_set)) | grepl("subjectid", colnames(full_set)) | grepl("activityname", colnames(full_set)))
 
-#tidy_set <- cbind(meta_set, meanstd_set)
 names(tidy_set) <- tolower(names(tidy_set))
 names(tidy_set) <- gsub("-", "", names(tidy_set))
 
 library(reshape)
-mtidy_set <- melt(tidy_set, id=c("subjectid", "activityname"))
-mtidy_set <- mtidy_set[order(mtidy_set$subjectid, mtidy_set$activityname),]
-final_tidy_set <- cast(mtidy_set, subjectid+activityname~variable,mean)
+tidy_set <- melt(tidy_set, id=c("subjectid", "activityname"))
+tidy_set <- tidy_set[order(tidy_set$subjectid, tidy_set$activityname),]
+final_tidy_set <- cast(tidy_set, subjectid+activityname~variable,mean)
 
 write.table(final_tidy_set, file="tidygalaxydataset.txt", row.names=FALSE)
 
